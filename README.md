@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# MiPagaré 📄
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación móvil para crear pagarés digitales legalmente vinculantes entre personas en México. Reemplaza los documentos en papel con una solución digital segura, eficiente y accesible.
 
-## Get started
+## Propósito
+MiPagaré permite a los usuarios crear pagarés digitales con otras partes de manera presencial. Proporciona un método seguro y legalmente vinculante para generar, firmar y gestionar pagarés. La aplicación agrega valor al ofrecer firmas electrónicas, notificaciones, recordatorios y seguimiento de pagarés emitidos, pagados y vencidos.
 
-1. Install dependencies
+Las funciones opcionales de verificación, como la captura de identificaciones y grabaciones en audio/video, aumentan la seguridad y la validez legal.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Funcionalidades
 
-   ```bash
-   npx expo start
-   ```
+### Funciones Principales
+- **Plantillas de Pagaré** — Crea pagarés con todos los campos legales requeridos
+- **Firmas Digitales** — Firma directamente en el dispositivo con el dedo o stylus
+- **Seguimiento de Pagos** — Rastrea pagarés emitidos, pagados y vencidos
+- **Notificaciones y Recordatorios** — Alertas automáticas por correo, SMS o WhatsApp
+- **Exportación en PDF** — Genera documentos PDF admisibles en juicio
+- **Almacenamiento Seguro** — Todos los documentos encriptados e inalterables
 
-In the output, you'll find options to open the app in a
+### Funciones Opcionales
+- **Verificación de Identidad** — Captura fotos de INE o pasaporte vinculadas al pagaré
+- **Grabación de Audio/Video** — Graba la promesa verbal de pago como evidencia legal
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Campos del Pagaré
+- Lugar y fecha de emisión
+- Promesa incondicional de pago
+- Monto
+- Información del acreedor
+- Información del deudor
+- Fecha de vencimiento
+- Lugar de pago
+- Tasa de interés (opcional)
+- Penalizaciones (opcional)
+- Firmas digitales
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Tecnologías Utilizadas
+- React Native / Expo
+- Node.js
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Estado del Proyecto
+🚧 En desarrollo
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+## Autor
+Nicolas Dalton Ramirez
